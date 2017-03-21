@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ask="http://schemas.android.com/apk/res-auto" android:keyWidth="25%p" android:keyHeight="@integer/key_normal_height">
+    <Row android:rowEdgeFlags="top">
+        <Key android:codes="46,44,63,59,8217,45,64,47,58" android:keyLabel=".,;!1" android:popupCharacters="1.,;!’-\@/:" android:keyEdgeFlags="left"/>
+        <Key android:codes="945,940,946,947" android:keyLabel="αβγ2" android:popupCharacters="2άαβγ"/>
+        <Key android:codes="948,949,941,950" android:keyLabel="δεζ3" android:popupCharacters="3δεέζ"/>
+        <Key android:codes="-10" ask:longPressCode="-102" android:keyEdgeFlags="right"/>
+    </Row>
+    <Row>
+        <Key android:codes="951,942,952,953,943,970,912" android:keyLabel="ηθι4" android:popupCharacters="4ηήθιίϊΐ" android:keyEdgeFlags="left"/>
+        <Key android:codes="954,955,956" android:keyLabel="κλμ5" android:popupCharacters="5κλμϗ«" />
+        <Key android:codes="957,958,959,972" android:keyLabel="νξο6" android:popupCharacters="6νξοό»" />
+        <Key android:codes="-2" android:keyLabel="123" android:keyEdgeFlags="right"/>
+    </Row>
+    <Row>
+        <Key android:codes="960,961,963,962" android:keyLabel="πρσς7" android:popupCharacters="7πρσς" android:keyEdgeFlags="left"/>
+        <Key android:codes="964,965,973,971,944,966" android:keyLabel="τυφ8" android:popupCharacters="8τυύϋΰφ" />
+        <Key android:codes="967,968,969,947" android:keyLabel="χψω9" android:popupCharacters="9χψωώ" />
+        <Key android:codes="-5" android:keyEdgeFlags="right" android:isRepeatable="true"/>
+    </Row>
+    <Row android:rowEdgeFlags="bottom">
+        <Key android:codes="-1" android:isModifier="true" android:isSticky="true" android:keyEdgeFlags="left"/>
+        <Key android:codes="32,48" android:keyWidth="50%p"/>
+        <Key android:codes="10" android:keyEdgeFlags="right" ask:longPressCode="-100"/>
+    </Row>
+</Keyboard>

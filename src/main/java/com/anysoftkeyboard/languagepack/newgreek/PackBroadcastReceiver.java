@@ -1,4 +1,4 @@
-package com.anysoftkeyboard.languagepack.greek;
+package com.anysoftkeyboard.languagepack.newgreek;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
